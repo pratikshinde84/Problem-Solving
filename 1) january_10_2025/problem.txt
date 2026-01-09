@@ -1,0 +1,25 @@
+you have to write the code for the finding the second larget element in the array 
+ex -> arr={1,2,4,6,3,2,1,2}
+answer -> 4
+add your files as yourname.java and create the pull requests
+
+
+
+class Pratik {
+
+    static int findSecondLargest(int[] arr) {
+        //write your code here
+        return 0;
+    }
+
+    public static void main(String[] args) {
+        int arr[]={1,2,4,5,5,6,7,8};
+        int result = findSecondLargest(arr);
+
+        if (result == -1) {
+            System.out.println("Second largest element not found");
+        } else {
+            System.out.println("Second largest element: " + result);
+        }
+    }
+}
