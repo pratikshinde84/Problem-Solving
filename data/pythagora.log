@@ -1,0 +1,10 @@
+2026-01-12T21:30:32.476Z INFO Is remote: false
+2026-01-12T21:30:32.477Z INFO Starting Local. Installation path: undefined
+2026-01-12T21:30:32.478Z INFO [MainProvider] Creating new MainProvider instance...
+2026-01-12T21:30:32.479Z INFO [TabsManager] Code view listener set up at initialization
+2026-01-12T21:30:32.480Z INFO Installation path exists: e:\Desktop\Pratik.dev\github\1) january_10_2025
+2026-01-12T21:30:32.482Z INFO Initializing database with URL: file:C:\Users\PRATIK~1\AppData\Local\Temp\pythagora-temp\pythagora.db
+2026-01-12T21:30:32.487Z INFO Database file exists, skipping prisma generate/push for faster startup
+2026-01-12T21:30:32.488Z INFO Database initialized successfully
+2026-01-12T21:30:32.489Z INFO [Migration] Checking for database migration...
+2026-01-12T21:30:32.737Z INFO [Migration] No migration needed
