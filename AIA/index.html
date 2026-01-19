@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Central Hub — OpenRouter Only</title>
+
+<!-- Tailwind -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- FontAwesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+.glass {
+    background: rgba(255,255,255,0.95);
+    backdrop-filter: blur(10px);
+}
+.chat-container {
+    height: calc(100vh - 350px);
+    overflow-y: auto;
+}
+.user-msg { border-left: 4px solid #3b82f6; }
+.ai-msg { border-left: 4px solid #10b981; }
+pre {
+    background: #020617;
+    color: #e5e7eb;
+    padding: 12px;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin-top: 10px;
+}
+</style>
+</head>
+
+<body class="bg-slate-50 min-h-screen">
+
+<div class="max-w-6xl mx-auto p-6">
+
+<header class="text-center mb-8">
+<h1 class="text-4xl font-extrabold">AI Model Central</h1>
+<p class="text-slate-500 mt-2">Powered ONLY by OpenRouter</p>
+</header>
+
+<div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
+
+<!-- Sidebar -->
+<div class="space-y-6">
+
+<div class="glass p-5 rounded-2xl border shadow">
+<h2 class="font-bold mb-3">
+<i class="fas fa-key text-yellow-500"></i> OpenRouter API Key
+</h2>
+<input id="apiKey" type="password"
+placeholder=""
+class="w-full p-2 border rounded"
+oninput="saveKey()">
+<p class="text-xs text-slate-400 mt-2">Saved locally in browser</p>
+</div>
+
+<div class="glass p-5 rounded-2xl border shadow">
+<h2 class="font-bold mb-3">
+<i class="fas fa-robot text-blue-500"></i> Model
+</h2>
+
+<select id="modelSelect" class="w-full p-2 border rounded bg-white">
+<optgroup label="FREE (OpenRouter)">
+<option value="openrouter/auto">Auto (Recommended)</option>
+<option value="google/gemma-2-9b-it:free">Gemma 2 9B</option>
+<option value="mistralai/mistral-7b-instruct:free">Mistral 7B</option>
+<option value="qwen/qwen-2-7b-instruct:free">Qwen 2 7B</option>
+<option value="microsoft/phi-3-mini-128k-instruct:free">Phi-3 Mini</option>
+</optgroup>
+
+<optgroup label="PAID (OpenRouter)">
+<option value="openai/gpt-4o">GPT-4o</option>
+<option value="anthropic/claude-3.5-sonnet">Claude 3.5 Sonnet</option>
+<option value="deepseek/deepseek-chat">DeepSeek Chat</option>
+</optgroup>
+</select>
+</div>
+
+</div>
+
+<!-- Chat -->
+<div class="lg:col-span-3">
+<div class="glass rounded-2xl border shadow flex flex-col h-full">
+
+<div id="chatOutput" class="chat-container p-6 space-y-4">
+<div class="bg-blue-50 p-4 rounded border text-sm">
+<strong>System:</strong> OpenRouter ready.
+</div>
+</div>
+
+<div class="p-4 border-t bg-slate-50">
+<div class="flex gap-3">
+<textarea id="userInput"
+rows="1"
+placeholder="Ask anything…"
+class="flex-1 p-3 border rounded resize-none"
+onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMessage();}">
+</textarea>
+
+<button onclick="sendMessage()" id="sendBtn"
+class="bg-blue-600 hover:bg-blue-700 text-white w-12 h-12 rounded flex items-center justify-center">
+<i class="fas fa-paper-plane"></i>
+</button>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+
+<script>
+window.onload = () => {
+    const k = localStorage.getItem("openrouter_key");
+    if (k) document.getElementById("apiKey").value = k;
+};
+
+function saveKey() {
+    localStorage.setItem("openrouter_key",
+        document.getElementById("apiKey").value);
+}
+
+function getApiKey() {
+    return document.getElementById("apiKey").value.trim();
+}
+
+async function sendMessage() {
+    const apiKey = getApiKey();
+    const model = document.getElementById("modelSelect").value;
+    const input = document.getElementById("userInput");
+    const chat = document.getElementById("chatOutput");
+    const btn = document.getElementById("sendBtn");
+
+    if (!apiKey) return alert("OpenRouter API key required");
+    if (!input.value.trim()) return;
+
+    append("User", input.value, "bg-slate-100 user-msg");
+    const prompt = input.value;
+    input.value = "";
+
+    btn.disabled = true;
+    const loading = append("AI", "Thinking…", "bg-emerald-50 ai-msg italic animate-pulse");
+
+    try {
+        const res = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+            method: "POST",
+            headers: {
+                "Authorization": `Bearer ${apiKey}`,
+                "Content-Type": "application/json",
+                "HTTP-Referer": location.href,
+                "X-Title": "OpenRouter AI Central"
+            },
+            body: JSON.stringify({
+                model,
+                messages: [{ role: "user", content: prompt }]
+            })
+        });
+
+        const data = await res.json();
+        loading.remove();
+
+        if (!res.ok) throw new Error(data.error?.message || "OpenRouter error");
+
+        append("AI", data.choices[0].message.content, "bg-emerald-50 ai-msg");
+
+    } catch (e) {
+        loading.remove();
+        append("System", e.message, "bg-red-50 text-red-700");
+    } finally {
+        btn.disabled = false;
+        chat.scrollTop = chat.scrollHeight;
+    }
+}
+
+function append(sender, text, cls) {
+    const chat = document.getElementById("chatOutput");
+    const div = document.createElement("div");
+    div.className = `${cls} p-4 rounded shadow text-sm`;
+
+    const formatted = text
+        .replace(/```([\s\S]*?)```/g, "<pre><code>$1</code></pre>")
+        .replace(/\n/g, "<br>");
+
+    div.innerHTML = `<span class="text-xs font-bold opacity-50">${sender}</span><div>${formatted}</div>`;
+    chat.appendChild(div);
+    return div;
+}
+</script>
+
+</body>
+</html>
