@@ -1,0 +1,351 @@
+product_id,generic_name,brand_name,dosage,form,price_inr,stock,prescription_required,is_active,created_at,description
+MED0001,Methotrexate,Torrent,1g,Tablet,7978.26,1042,Yes,FALSE,05-11-2024,Methotrexate is commonly used in the management of certain cancers and immune-related conditions.
+MED0002,Prednisolone,Cipla,100mg,Syrup,121.14,136,Yes,TRUE,30-04-2024,Prednisolone is commonly used in the management of inflammatory and autoimmune disorders.
+MED0003,Linezolid,Torrent,10ml,Syrup,2265.88,599,Yes,TRUE,30-04-2024,Linezolid works by targeting the underlying cause of bacterial infections.
+MED0004,Methylprednisolone,Abbott India,50mg,Tablet,397.49,400,Yes,FALSE,12-03-2024,Methylprednisolone plays an important role in treating inflammatory and autoimmune disorders.
+MED0005,Domperidone,Lupin,50mg,Cream,538.11,237,Yes,TRUE,23-09-2024,Domperidone is widely prescribed for controlling acid reflux and gastric disorders.
+MED0006,Risperidone,Cipla,650mg,Syrup,519.36,245,Yes,TRUE,31-03-2024,"Risperidone is effective in preventing complications related to anxiety, depression, and mood disorders."
+MED0007,Cyclosporine,Zydus,500mg,Injection,60.54,810,Yes,FALSE,20-07-2024,Cyclosporine is commonly used in the management of inflammatory and autoimmune disorders.
+MED0008,Ibuprofen,Sun Pharma,650mg,Cream,540.95,579,No,TRUE,01-11-2024,Ibuprofen plays an important role in treating pain and fever.
+MED0009,Rabeprazole,Abbott India,1g,Inhaler,171.8,91,Yes,TRUE,01-03-2024,Rabeprazole is effective in preventing complications related to acid reflux and gastric disorders.
+MED0010,Olanzapine,Torrent,500mg,Tablet,490.31,724,Yes,TRUE,25-01-2024,"Olanzapine is administered in moderate to severe cases of anxiety, depression, and mood disorders."
+MED0011,Budesonide,Lupin,50mg,Capsule,175.78,633,Yes,TRUE,31-03-2024,Budesonide is effective in preventing complications related to asthma and allergic airway conditions.
+MED0012,Metformin,Lupin,5ml,Cream,161.89,793,Yes,TRUE,03-03-2024,Metformin is effective in preventing complications related to type 2 diabetes and blood glucose control.
+MED0013,Insulin Glargine,Cipla,250mg,Tablet,228.53,1093,Yes,TRUE,17-12-2024,Insulin Glargine works by targeting the underlying cause of type 2 diabetes and blood glucose control.
+MED0014,Cyclosporine,Zydus,1g,Injection,134.44,691,Yes,TRUE,11-01-2024,Cyclosporine is commonly used in the management of inflammatory and autoimmune disorders.
+MED0015,Aspirin,Dr Reddy's,1g,Cream,239.11,1199,No,FALSE,22-03-2024,Aspirin is administered in moderate to severe cases of pain and fever.
+MED0016,Cyclophosphamide,Dr Reddy's,200mg,Injection,2520.18,424,Yes,FALSE,28-01-2024,Cyclophosphamide is indicated for patients suffering from certain cancers and immune-related conditions.
+MED0017,Insulin Glargine,Alkem,50mg,Cream,586.6,31,Yes,FALSE,27-04-2024,Insulin Glargine is indicated for patients suffering from type 2 diabetes and blood glucose control.
+MED0018,Levofloxacin,Alkem,500mg,Tablet,333.45,1170,Yes,TRUE,25-03-2024,Levofloxacin is widely prescribed for controlling bacterial infections.
+MED0019,Clindamycin,Alkem,5ml,Capsule,216.5,386,Yes,FALSE,03-01-2024,Clindamycin plays an important role in treating bacterial infections.
+MED0020,Aspirin,Mankind,50mg,Cream,153.93,922,No,FALSE,08-11-2024,Aspirin supports long‑term treatment of pain and fever.
+MED0021,Dexamethasone,Sun Pharma,250mg,Injection,264.35,509,Yes,TRUE,20-07-2024,Dexamethasone helps in reducing symptoms associated with inflammatory and autoimmune disorders.
+MED0022,Tramadol,Dr Reddy's,100mg,Syrup,473.64,505,Yes,TRUE,21-11-2024,Tramadol is widely prescribed for controlling pain and fever.
+MED0023,Methylprednisolone,Alkem,1g,Injection,432.2,1194,Yes,TRUE,04-04-2024,Methylprednisolone is commonly used in the management of inflammatory and autoimmune disorders.
+MED0024,Tacrolimus,Zydus,250mg,Capsule,81.24,694,Yes,TRUE,05-04-2024,Tacrolimus is commonly used in the management of inflammatory and autoimmune disorders.
+MED0025,Tramadol,Cipla,250mg,Inhaler,182.72,1095,Yes,TRUE,17-06-2024,Tramadol is effective in preventing complications related to pain and fever.
+MED0026,Methylprednisolone,Alkem,5ml,Inhaler,379.86,1014,Yes,TRUE,24-01-2024,Methylprednisolone supports long‑term treatment of inflammatory and autoimmune disorders.
+MED0027,Ciprofloxacin,Sun Pharma,5ml,Cream,445.06,236,Yes,FALSE,14-12-2024,Ciprofloxacin is indicated for patients suffering from bacterial infections.
+MED0028,Clarithromycin,Glenmark,200mg,Syrup,436.16,916,Yes,TRUE,10-10-2024,Clarithromycin supports long‑term treatment of bacterial infections.
+MED0029,Salbutamol,Dr Reddy's,250mg,Inhaler,320.34,306,Yes,FALSE,25-10-2024,Salbutamol plays an important role in treating asthma and allergic airway conditions.
+MED0030,Azithromycin,Zydus,650mg,Syrup,511.77,574,Yes,FALSE,07-01-2024,Azithromycin supports long‑term treatment of bacterial infections.
+MED0031,Budesonide,Mankind,50mg,Cream,303.61,812,Yes,FALSE,08-11-2024,Budesonide helps in reducing symptoms associated with asthma and allergic airway conditions.
+MED0032,Methotrexate,Dr Reddy's,500mg,Cream,8315.05,898,Yes,TRUE,11-09-2024,Methotrexate is widely prescribed for controlling certain cancers and immune-related conditions.
+MED0033,Ondansetron,Torrent,10ml,Tablet,448.11,350,Yes,TRUE,09-01-2024,Ondansetron is administered in moderate to severe cases of acid reflux and gastric disorders.
+MED0034,Glimepiride,Torrent,1g,Injection,279.71,709,Yes,FALSE,21-01-2024,Glimepiride works by targeting the underlying cause of type 2 diabetes and blood glucose control.
+MED0035,Cyclophosphamide,Torrent,200mg,Tablet,4849.44,11,Yes,TRUE,26-02-2024,Cyclophosphamide is part of standard therapy for certain cancers and immune-related conditions.
+MED0036,Fentanyl,Sun Pharma,50mg,Syrup,2369.3,1163,Yes,TRUE,16-07-2024,Fentanyl is part of standard therapy for pain and fever.
+MED0037,Omeprazole,Sun Pharma,250mg,Capsule,176.74,983,Yes,FALSE,27-03-2024,Omeprazole is commonly used in the management of acid reflux and gastric disorders.
+MED0038,Salbutamol,Mankind,5ml,Syrup,276.55,854,Yes,TRUE,17-10-2024,Salbutamol is administered in moderate to severe cases of asthma and allergic airway conditions.
+MED0039,Telmisartan,Zydus,1g,Syrup,301.23,323,Yes,FALSE,23-12-2024,Telmisartan is effective in preventing complications related to high blood pressure.
+MED0040,Ibuprofen,Glenmark,500mg,Injection,110.6,910,No,TRUE,13-11-2024,Ibuprofen is effective in preventing complications related to pain and fever.
+MED0041,Rabeprazole,Lupin,5ml,Capsule,453.53,936,Yes,TRUE,03-07-2024,Rabeprazole is commonly used in the management of acid reflux and gastric disorders.
+MED0042,Salbutamol,Alkem,500mg,Syrup,595.96,388,Yes,FALSE,12-12-2024,Salbutamol is commonly used in the management of asthma and allergic airway conditions.
+MED0043,Alprazolam,Torrent,5ml,Syrup,532.88,558,Yes,TRUE,19-07-2024,"Alprazolam plays an important role in treating anxiety, depression, and mood disorders."
+MED0044,Cyclosporine,Sun Pharma,250mg,Cream,81.92,1188,Yes,FALSE,05-11-2024,Cyclosporine supports long‑term treatment of inflammatory and autoimmune disorders.
+MED0045,Telmisartan,Alkem,1g,Injection,73.52,364,Yes,TRUE,17-12-2024,Telmisartan is widely prescribed for controlling high blood pressure.
+MED0046,Morphine,Sun Pharma,500mg,Syrup,1219.06,984,Yes,TRUE,31-01-2024,Morphine works by targeting the underlying cause of pain and fever.
+MED0047,Telmisartan,Cipla,10ml,Injection,176.01,639,Yes,FALSE,03-03-2024,Telmisartan is part of standard therapy for high blood pressure.
+MED0048,Warfarin,Dr Reddy's,650mg,Cream,299.32,991,Yes,FALSE,02-10-2024,Warfarin plays an important role in treating cholesterol management and heart disease.
+MED0049,Clindamycin,Sun Pharma,500mg,Tablet,287.76,945,Yes,TRUE,13-01-2024,Clindamycin supports long‑term treatment of bacterial infections.
+MED0050,Clopidogrel,Lupin,500mg,Inhaler,42.49,901,Yes,TRUE,20-10-2024,Clopidogrel works by targeting the underlying cause of cholesterol management and heart disease.
+MED0051,Paracetamol,Torrent,250mg,Syrup,453.2,772,No,TRUE,12-09-2024,Paracetamol is administered in moderate to severe cases of pain and fever.
+MED0052,Warfarin,Alkem,1g,Cream,58.67,254,Yes,FALSE,28-06-2024,Warfarin helps in reducing symptoms associated with cholesterol management and heart disease.
+MED0053,Levofloxacin,Glenmark,100mg,Inhaler,571.3,282,Yes,TRUE,20-11-2024,Levofloxacin is commonly used in the management of bacterial infections.
+MED0054,Morphine,Sun Pharma,200mg,Capsule,3673.18,576,Yes,TRUE,07-10-2024,Morphine is commonly used in the management of pain and fever.
+MED0055,Fentanyl,Glenmark,200mg,Capsule,4586.2,83,Yes,TRUE,25-01-2024,Fentanyl plays an important role in treating pain and fever.
+MED0056,Fluoxetine,Alkem,50mg,Capsule,299.54,327,Yes,FALSE,21-06-2024,"Fluoxetine is effective in preventing complications related to anxiety, depression, and mood disorders."
+MED0057,Tacrolimus,Dr Reddy's,200mg,Tablet,358.48,311,Yes,FALSE,19-11-2024,Tacrolimus plays an important role in treating inflammatory and autoimmune disorders.
+MED0058,Clarithromycin,Cipla,1g,Injection,355.75,144,Yes,FALSE,04-09-2024,Clarithromycin works by targeting the underlying cause of bacterial infections.
+MED0059,Fentanyl,Cipla,100mg,Capsule,1225.68,740,Yes,TRUE,07-05-2024,Fentanyl is commonly used in the management of pain and fever.
+MED0060,Salbutamol,Zydus,10ml,Tablet,491.72,745,Yes,FALSE,01-05-2024,Salbutamol is indicated for patients suffering from asthma and allergic airway conditions.
+MED0061,Prednisolone,Abbott India,250mg,Injection,298.27,689,Yes,FALSE,24-12-2024,Prednisolone supports long‑term treatment of inflammatory and autoimmune disorders.
+MED0062,Salbutamol,Cipla,200mg,Capsule,496.4,515,Yes,TRUE,14-09-2024,Salbutamol is administered in moderate to severe cases of asthma and allergic airway conditions.
+MED0063,Rabeprazole,Cipla,650mg,Cream,227.29,351,Yes,FALSE,30-01-2024,Rabeprazole plays an important role in treating acid reflux and gastric disorders.
+MED0064,Insulin Glargine,Abbott India,5ml,Cream,89.22,109,Yes,FALSE,10-07-2024,Insulin Glargine is effective in preventing complications related to type 2 diabetes and blood glucose control.
+MED0065,Dexamethasone,Glenmark,50mg,Tablet,112.53,626,Yes,FALSE,30-07-2024,Dexamethasone is indicated for patients suffering from inflammatory and autoimmune disorders.
+MED0066,Cyclophosphamide,Glenmark,100mg,Cream,3842.5,1061,Yes,TRUE,22-01-2024,Cyclophosphamide is widely prescribed for controlling certain cancers and immune-related conditions.
+MED0067,Metformin,Abbott India,50mg,Injection,187.96,905,Yes,TRUE,27-08-2024,Metformin works by targeting the underlying cause of type 2 diabetes and blood glucose control.
+MED0068,Methotrexate,Dr Reddy's,200mg,Inhaler,5138.89,211,Yes,FALSE,12-10-2024,Methotrexate is commonly used in the management of certain cancers and immune-related conditions.
+MED0069,Paracetamol,Sun Pharma,10ml,Tablet,32.65,837,No,TRUE,22-12-2024,Paracetamol is commonly used in the management of pain and fever.
+MED0070,Clopidogrel,Lupin,650mg,Inhaler,173.54,1005,Yes,FALSE,08-10-2024,Clopidogrel plays an important role in treating cholesterol management and heart disease.
+MED0071,Atorvastatin,Cipla,500mg,Syrup,521,605,Yes,TRUE,20-01-2024,Atorvastatin is commonly used in the management of cholesterol management and heart disease.
+MED0072,Insulin Glargine,Mankind,1g,Inhaler,270.34,799,Yes,TRUE,14-01-2024,Insulin Glargine works by targeting the underlying cause of type 2 diabetes and blood glucose control.
+MED0073,Risperidone,Lupin,500mg,Inhaler,178.34,828,Yes,TRUE,10-02-2024,"Risperidone is indicated for patients suffering from anxiety, depression, and mood disorders."
+MED0074,Paracetamol,Dr Reddy's,500mg,Inhaler,303.62,1120,No,FALSE,30-06-2024,Paracetamol supports long‑term treatment of pain and fever.
+MED0075,Glimepiride,Alkem,250mg,Syrup,468.25,1030,Yes,TRUE,31-01-2024,Glimepiride is widely prescribed for controlling type 2 diabetes and blood glucose control.
+MED0076,Insulin Glargine,Sun Pharma,100mg,Inhaler,321.68,1189,Yes,FALSE,16-12-2024,Insulin Glargine is administered in moderate to severe cases of type 2 diabetes and blood glucose control.
+MED0077,Paracetamol,Cipla,10ml,Cream,561.02,1120,No,FALSE,11-02-2024,Paracetamol is effective in preventing complications related to pain and fever.
+MED0078,Omeprazole,Mankind,100mg,Injection,540.76,220,Yes,FALSE,04-05-2024,Omeprazole works by targeting the underlying cause of acid reflux and gastric disorders.
+MED0079,Domperidone,Alkem,100mg,Cream,53.85,757,Yes,FALSE,07-01-2024,Domperidone works by targeting the underlying cause of acid reflux and gastric disorders.
+MED0080,Alprazolam,Mankind,500mg,Syrup,457.72,583,Yes,FALSE,18-01-2024,"Alprazolam works by targeting the underlying cause of anxiety, depression, and mood disorders."
+MED0081,Morphine,Mankind,650mg,Tablet,2327.29,400,Yes,TRUE,29-09-2024,Morphine works by targeting the underlying cause of pain and fever.
+MED0082,Cyclophosphamide,Glenmark,5ml,Inhaler,5569.37,992,Yes,TRUE,02-01-2024,Cyclophosphamide is part of standard therapy for certain cancers and immune-related conditions.
+MED0083,Ceftriaxone,Sun Pharma,200mg,Capsule,384.48,36,Yes,FALSE,29-05-2024,Ceftriaxone is indicated for patients suffering from bacterial infections.
+MED0084,Hydrochlorothiazide,Dr Reddy's,5ml,Inhaler,542.7,546,Yes,TRUE,05-04-2024,Hydrochlorothiazide works by targeting the underlying cause of high blood pressure.
+MED0085,Atorvastatin,Glenmark,650mg,Cream,170.37,603,Yes,TRUE,19-04-2024,Atorvastatin is indicated for patients suffering from cholesterol management and heart disease.
+MED0086,Diazepam,Alkem,200mg,Inhaler,516.49,769,Yes,FALSE,15-10-2024,"Diazepam helps in reducing symptoms associated with anxiety, depression, and mood disorders."
+MED0087,Montelukast,Dr Reddy's,50mg,Syrup,297.53,292,Yes,FALSE,12-01-2024,Montelukast is widely prescribed for controlling asthma and allergic airway conditions.
+MED0088,Tramadol,Lupin,650mg,Syrup,493.16,605,Yes,TRUE,28-04-2024,Tramadol is effective in preventing complications related to pain and fever.
+MED0089,Cyclophosphamide,Dr Reddy's,650mg,Syrup,4704.43,248,Yes,FALSE,04-02-2024,Cyclophosphamide plays an important role in treating certain cancers and immune-related conditions.
+MED0090,Methotrexate,Lupin,10ml,Tablet,6658.49,503,Yes,FALSE,06-01-2024,Methotrexate works by targeting the underlying cause of certain cancers and immune-related conditions.
+MED0091,Methotrexate,Cipla,250mg,Cream,8084.9,1189,Yes,TRUE,03-09-2024,Methotrexate is administered in moderate to severe cases of certain cancers and immune-related conditions.
+MED0092,Fluoxetine,Zydus,100mg,Inhaler,291,177,Yes,TRUE,07-01-2024,"Fluoxetine supports long‑term treatment of anxiety, depression, and mood disorders."
+MED0093,Cyclosporine,Zydus,5ml,Cream,82.72,615,Yes,FALSE,24-07-2024,Cyclosporine plays an important role in treating inflammatory and autoimmune disorders.
+MED0094,Losartan,Dr Reddy's,5ml,Inhaler,132.57,17,Yes,TRUE,07-08-2024,Losartan is part of standard therapy for high blood pressure.
+MED0095,Hydrochlorothiazide,Torrent,650mg,Syrup,112.25,135,Yes,FALSE,22-05-2024,Hydrochlorothiazide supports long‑term treatment of high blood pressure.
+MED0096,Rabeprazole,Mankind,50mg,Inhaler,439.46,855,Yes,TRUE,10-09-2024,Rabeprazole is effective in preventing complications related to acid reflux and gastric disorders.
+MED0097,Aspirin,Zydus,5ml,Inhaler,92.73,277,No,FALSE,08-07-2024,Aspirin supports long‑term treatment of pain and fever.
+MED0098,Fentanyl,Torrent,250mg,Tablet,2482.93,427,Yes,FALSE,24-07-2024,Fentanyl is administered in moderate to severe cases of pain and fever.
+MED0099,Cyclophosphamide,Mankind,10ml,Inhaler,5495.52,240,Yes,TRUE,13-01-2024,Cyclophosphamide is effective in preventing complications related to certain cancers and immune-related conditions.
+MED0100,Cyclophosphamide,Zydus,5ml,Cream,4121.32,49,Yes,TRUE,03-11-2024,Cyclophosphamide is effective in preventing complications related to certain cancers and immune-related conditions.
+MED0101,Budesonide,Mankind,50mg,Injection,218.66,562,Yes,FALSE,18-02-2024,Budesonide works by targeting the underlying cause of asthma and allergic airway conditions.
+MED0102,Olanzapine,Dr Reddy's,650mg,Injection,354.84,882,Yes,TRUE,11-01-2024,"Olanzapine supports long‑term treatment of anxiety, depression, and mood disorders."
+MED0103,Azithromycin,Zydus,1g,Capsule,59.6,983,Yes,FALSE,12-04-2024,Azithromycin is effective in preventing complications related to bacterial infections.
+MED0104,Paracetamol,Dr Reddy's,200mg,Capsule,288.53,213,No,TRUE,31-03-2024,Paracetamol is indicated for patients suffering from pain and fever.
+MED0105,Glimepiride,Abbott India,1g,Cream,384.13,392,Yes,TRUE,06-02-2024,Glimepiride plays an important role in treating type 2 diabetes and blood glucose control.
+MED0106,Cyclophosphamide,Mankind,500mg,Syrup,2855.65,661,Yes,FALSE,02-03-2024,Cyclophosphamide is administered in moderate to severe cases of certain cancers and immune-related conditions.
+MED0107,Prednisolone,Mankind,1g,Syrup,403.75,343,Yes,TRUE,06-11-2024,Prednisolone supports long‑term treatment of inflammatory and autoimmune disorders.
+MED0108,Vancomycin,Mankind,200mg,Capsule,3378.52,448,Yes,FALSE,13-02-2024,Vancomycin is administered in moderate to severe cases of bacterial infections.
+MED0109,Budesonide,Mankind,100mg,Cream,406.37,831,Yes,TRUE,22-05-2024,Budesonide helps in reducing symptoms associated with asthma and allergic airway conditions.
+MED0110,Rabeprazole,Mankind,250mg,Capsule,405.9,569,Yes,FALSE,22-05-2024,Rabeprazole is effective in preventing complications related to acid reflux and gastric disorders.
+MED0111,Warfarin,Cipla,100mg,Tablet,433.35,968,Yes,TRUE,07-09-2024,Warfarin works by targeting the underlying cause of cholesterol management and heart disease.
+MED0112,Lithium Carbonate,Sun Pharma,200mg,Cream,415.27,258,Yes,TRUE,09-10-2024,"Lithium Carbonate is commonly used in the management of anxiety, depression, and mood disorders."
+MED0113,Pantoprazole,Cipla,5ml,Inhaler,40.8,823,Yes,FALSE,24-06-2024,Pantoprazole is indicated for patients suffering from acid reflux and gastric disorders.
+MED0114,Metformin,Lupin,650mg,Inhaler,354.07,649,Yes,TRUE,06-05-2024,Metformin is commonly used in the management of type 2 diabetes and blood glucose control.
+MED0115,Dexamethasone,Alkem,100mg,Capsule,286.24,873,Yes,TRUE,09-10-2024,Dexamethasone is administered in moderate to severe cases of inflammatory and autoimmune disorders.
+MED0116,Diazepam,Sun Pharma,200mg,Inhaler,355.58,801,Yes,TRUE,26-02-2024,"Diazepam is indicated for patients suffering from anxiety, depression, and mood disorders."
+MED0117,Ondansetron,Glenmark,200mg,Cream,497.74,1181,Yes,FALSE,14-05-2024,Ondansetron is commonly used in the management of acid reflux and gastric disorders.
+MED0118,Cyclosporine,Zydus,200mg,Tablet,344.98,876,Yes,FALSE,13-12-2024,Cyclosporine works by targeting the underlying cause of inflammatory and autoimmune disorders.
+MED0119,Insulin Glargine,Glenmark,650mg,Capsule,506.61,181,Yes,FALSE,05-02-2024,Insulin Glargine is effective in preventing complications related to type 2 diabetes and blood glucose control.
+MED0120,Aspirin,Cipla,100mg,Injection,463.44,516,No,FALSE,24-04-2024,Aspirin is commonly used in the management of pain and fever.
+MED0121,Budesonide,Alkem,250mg,Injection,482.27,736,Yes,FALSE,10-12-2024,Budesonide supports long‑term treatment of asthma and allergic airway conditions.
+MED0122,Glimepiride,Glenmark,50mg,Inhaler,185.56,519,Yes,FALSE,29-05-2024,Glimepiride is widely prescribed for controlling type 2 diabetes and blood glucose control.
+MED0123,Clopidogrel,Glenmark,1g,Tablet,209.18,583,Yes,TRUE,16-08-2024,Clopidogrel supports long‑term treatment of cholesterol management and heart disease.
+MED0124,Fluoxetine,Alkem,5ml,Injection,114.74,336,Yes,TRUE,17-07-2024,"Fluoxetine plays an important role in treating anxiety, depression, and mood disorders."
+MED0125,Ondansetron,Zydus,250mg,Injection,468.13,598,Yes,FALSE,03-03-2024,Ondansetron helps in reducing symptoms associated with acid reflux and gastric disorders.
+MED0126,Azithromycin,Sun Pharma,1g,Cream,540.63,322,Yes,FALSE,16-08-2024,Azithromycin helps in reducing symptoms associated with bacterial infections.
+MED0127,Metformin,Torrent,1g,Capsule,137.7,240,Yes,FALSE,09-05-2024,Metformin is part of standard therapy for type 2 diabetes and blood glucose control.
+MED0128,Methotrexate,Torrent,100mg,Cream,6448.65,241,Yes,TRUE,09-09-2024,Methotrexate is commonly used in the management of certain cancers and immune-related conditions.
+MED0129,Amoxicillin,Zydus,1g,Tablet,212.17,592,Yes,TRUE,10-07-2024,Amoxicillin supports long‑term treatment of bacterial infections.
+MED0130,Rosuvastatin,Cipla,10ml,Injection,422.01,184,Yes,TRUE,21-11-2024,Rosuvastatin is part of standard therapy for cholesterol management and heart disease.
+MED0131,Domperidone,Zydus,100mg,Tablet,165.71,1181,Yes,TRUE,15-12-2024,Domperidone is part of standard therapy for acid reflux and gastric disorders.
+MED0132,Tramadol,Lupin,650mg,Inhaler,495.83,824,Yes,FALSE,10-12-2024,Tramadol plays an important role in treating pain and fever.
+MED0133,Budesonide,Dr Reddy's,1g,Inhaler,73.16,1138,Yes,FALSE,25-11-2024,Budesonide supports long‑term treatment of asthma and allergic airway conditions.
+MED0134,Linezolid,Torrent,5ml,Cream,2018.62,1174,Yes,FALSE,19-06-2024,Linezolid is administered in moderate to severe cases of bacterial infections.
+MED0135,Fluoxetine,Abbott India,5ml,Tablet,279.45,341,Yes,FALSE,21-10-2024,"Fluoxetine is administered in moderate to severe cases of anxiety, depression, and mood disorders."
+MED0136,Dexamethasone,Alkem,200mg,Inhaler,533.33,429,Yes,FALSE,23-07-2024,Dexamethasone supports long‑term treatment of inflammatory and autoimmune disorders.
+MED0137,Losartan,Lupin,5ml,Syrup,158.17,710,Yes,TRUE,20-04-2024,Losartan is commonly used in the management of high blood pressure.
+MED0138,Linezolid,Lupin,50mg,Inhaler,2127.11,991,Yes,TRUE,16-11-2024,Linezolid is indicated for patients suffering from bacterial infections.
+MED0139,Methylprednisolone,Torrent,650mg,Injection,413.68,1078,Yes,FALSE,30-11-2024,Methylprednisolone helps in reducing symptoms associated with inflammatory and autoimmune disorders.
+MED0140,Metformin,Glenmark,250mg,Syrup,568.36,214,Yes,TRUE,25-05-2024,Metformin helps in reducing symptoms associated with type 2 diabetes and blood glucose control.
+MED0141,Montelukast,Torrent,200mg,Syrup,218.68,104,Yes,TRUE,24-06-2024,Montelukast is administered in moderate to severe cases of asthma and allergic airway conditions.
+MED0142,Enoxaparin,Glenmark,200mg,Syrup,305.74,197,Yes,TRUE,22-03-2024,Enoxaparin supports long‑term treatment of cholesterol management and heart disease.
+MED0143,Omeprazole,Glenmark,10ml,Injection,550.97,248,Yes,FALSE,11-03-2024,Omeprazole is commonly used in the management of acid reflux and gastric disorders.
+MED0144,Methotrexate,Dr Reddy's,10ml,Inhaler,4956.98,317,Yes,TRUE,08-07-2024,Methotrexate is indicated for patients suffering from certain cancers and immune-related conditions.
+MED0145,Amlodipine,Zydus,200mg,Inhaler,215,578,Yes,FALSE,07-09-2024,Amlodipine is indicated for patients suffering from high blood pressure.
+MED0146,Morphine,Abbott India,10ml,Inhaler,3187.31,582,Yes,TRUE,29-02-2024,Morphine plays an important role in treating pain and fever.
+MED0147,Insulin Glargine,Mankind,200mg,Injection,389.73,1026,Yes,TRUE,01-05-2024,Insulin Glargine is effective in preventing complications related to type 2 diabetes and blood glucose control.
+MED0148,Amlodipine,Glenmark,5ml,Cream,367.57,153,Yes,FALSE,18-06-2024,Amlodipine is effective in preventing complications related to high blood pressure.
+MED0149,Salbutamol,Cipla,100mg,Cream,381.06,9,Yes,TRUE,29-09-2024,Salbutamol is commonly used in the management of asthma and allergic airway conditions.
+MED0150,Hydrochlorothiazide,Lupin,10ml,Inhaler,485.91,1007,Yes,TRUE,23-12-2024,Hydrochlorothiazide is commonly used in the management of high blood pressure.
+MED0151,Ondansetron,Lupin,1g,Inhaler,21.16,1139,Yes,FALSE,28-05-2024,Ondansetron helps in reducing symptoms associated with acid reflux and gastric disorders.
+MED0152,Domperidone,Mankind,50mg,Injection,161.46,988,Yes,FALSE,19-05-2024,Domperidone is indicated for patients suffering from acid reflux and gastric disorders.
+MED0153,Enoxaparin,Mankind,100mg,Injection,599.57,622,Yes,TRUE,20-09-2024,Enoxaparin is indicated for patients suffering from cholesterol management and heart disease.
+MED0154,Omeprazole,Cipla,500mg,Cream,549.22,1075,Yes,FALSE,26-11-2024,Omeprazole is widely prescribed for controlling acid reflux and gastric disorders.
+MED0155,Clarithromycin,Cipla,500mg,Capsule,427.49,533,Yes,FALSE,02-12-2024,Clarithromycin is administered in moderate to severe cases of bacterial infections.
+MED0156,Insulin Glargine,Abbott India,100mg,Inhaler,443.3,760,Yes,TRUE,25-11-2024,Insulin Glargine is indicated for patients suffering from type 2 diabetes and blood glucose control.
+MED0157,Telmisartan,Abbott India,250mg,Injection,353.9,782,Yes,TRUE,31-03-2024,Telmisartan helps in reducing symptoms associated with high blood pressure.
+MED0158,Montelukast,Zydus,10ml,Capsule,430.39,1080,Yes,FALSE,18-08-2024,Montelukast is commonly used in the management of asthma and allergic airway conditions.
+MED0159,Glimepiride,Cipla,10ml,Inhaler,275.19,321,Yes,TRUE,17-12-2024,Glimepiride works by targeting the underlying cause of type 2 diabetes and blood glucose control.
+MED0160,Methotrexate,Alkem,50mg,Syrup,6832.1,952,Yes,TRUE,05-07-2024,Methotrexate is part of standard therapy for certain cancers and immune-related conditions.
+MED0161,Cyclophosphamide,Lupin,650mg,Cream,2437.94,47,Yes,FALSE,04-06-2024,Cyclophosphamide helps in reducing symptoms associated with certain cancers and immune-related conditions.
+MED0162,Olanzapine,Cipla,650mg,Capsule,568.3,134,Yes,TRUE,29-07-2024,"Olanzapine is administered in moderate to severe cases of anxiety, depression, and mood disorders."
+MED0163,Methotrexate,Abbott India,5ml,Tablet,2778.5,1078,Yes,FALSE,05-09-2024,Methotrexate supports long‑term treatment of certain cancers and immune-related conditions.
+MED0164,Omeprazole,Alkem,100mg,Capsule,402.56,395,Yes,FALSE,21-03-2024,Omeprazole is widely prescribed for controlling acid reflux and gastric disorders.
+MED0165,Dexamethasone,Dr Reddy's,50mg,Inhaler,331.88,252,Yes,TRUE,15-09-2024,Dexamethasone plays an important role in treating inflammatory and autoimmune disorders.
+MED0166,Salbutamol,Torrent,250mg,Injection,473.2,1049,Yes,FALSE,30-11-2024,Salbutamol is indicated for patients suffering from asthma and allergic airway conditions.
+MED0167,Lithium Carbonate,Lupin,50mg,Cream,138.28,458,Yes,TRUE,16-05-2024,"Lithium Carbonate supports long‑term treatment of anxiety, depression, and mood disorders."
+MED0168,Dexamethasone,Cipla,10ml,Syrup,583.86,986,Yes,TRUE,12-05-2024,Dexamethasone is widely prescribed for controlling inflammatory and autoimmune disorders.
+MED0169,Enoxaparin,Lupin,10ml,Cream,158.18,1031,Yes,FALSE,21-02-2024,Enoxaparin is effective in preventing complications related to cholesterol management and heart disease.
+MED0170,Amlodipine,Alkem,50mg,Cream,485.66,683,Yes,FALSE,14-08-2024,Amlodipine is administered in moderate to severe cases of high blood pressure.
+MED0171,Amlodipine,Cipla,1g,Cream,369.97,992,Yes,TRUE,26-11-2024,Amlodipine supports long‑term treatment of high blood pressure.
+MED0172,Azithromycin,Cipla,100mg,Capsule,31.79,770,Yes,TRUE,21-02-2024,Azithromycin is indicated for patients suffering from bacterial infections.
+MED0173,Cyclophosphamide,Torrent,5ml,Capsule,6355.17,163,Yes,FALSE,02-08-2024,Cyclophosphamide is effective in preventing complications related to certain cancers and immune-related conditions.
+MED0174,Budesonide,Zydus,50mg,Cream,189.26,170,Yes,FALSE,03-10-2024,Budesonide is widely prescribed for controlling asthma and allergic airway conditions.
+MED0175,Olanzapine,Cipla,100mg,Inhaler,249.67,892,Yes,FALSE,29-07-2024,"Olanzapine is effective in preventing complications related to anxiety, depression, and mood disorders."
+MED0176,Budesonide,Torrent,1g,Syrup,139.73,640,Yes,TRUE,10-02-2024,Budesonide is indicated for patients suffering from asthma and allergic airway conditions.
+MED0177,Hydrochlorothiazide,Torrent,1g,Inhaler,369.17,1113,Yes,TRUE,29-01-2024,Hydrochlorothiazide is administered in moderate to severe cases of high blood pressure.
+MED0178,Sertraline,Mankind,100mg,Syrup,474.24,481,Yes,TRUE,14-05-2024,"Sertraline is part of standard therapy for anxiety, depression, and mood disorders."
+MED0179,Clopidogrel,Dr Reddy's,250mg,Inhaler,118.62,107,Yes,FALSE,27-04-2024,Clopidogrel is commonly used in the management of cholesterol management and heart disease.
+MED0180,Clarithromycin,Dr Reddy's,100mg,Injection,494.04,614,Yes,FALSE,10-05-2024,Clarithromycin is indicated for patients suffering from bacterial infections.
+MED0181,Telmisartan,Zydus,100mg,Tablet,233.77,479,Yes,TRUE,22-04-2024,Telmisartan is commonly used in the management of high blood pressure.
+MED0182,Warfarin,Glenmark,5ml,Syrup,41.58,760,Yes,FALSE,02-05-2024,Warfarin is part of standard therapy for cholesterol management and heart disease.
+MED0183,Linezolid,Abbott India,100mg,Injection,3188.29,945,Yes,FALSE,02-07-2024,Linezolid is commonly used in the management of bacterial infections.
+MED0184,Warfarin,Torrent,500mg,Inhaler,482.54,495,Yes,TRUE,12-10-2024,Warfarin supports long‑term treatment of cholesterol management and heart disease.
+MED0185,Paracetamol,Abbott India,250mg,Injection,332.6,660,No,TRUE,23-07-2024,Paracetamol is administered in moderate to severe cases of pain and fever.
+MED0186,Losartan,Cipla,100mg,Syrup,415.25,698,Yes,TRUE,20-01-2024,Losartan is indicated for patients suffering from high blood pressure.
+MED0187,Rosuvastatin,Dr Reddy's,10ml,Capsule,66.17,984,Yes,TRUE,04-08-2024,Rosuvastatin is administered in moderate to severe cases of cholesterol management and heart disease.
+MED0188,Glimepiride,Lupin,1g,Tablet,381.33,639,Yes,FALSE,18-06-2024,Glimepiride is widely prescribed for controlling type 2 diabetes and blood glucose control.
+MED0189,Atorvastatin,Sun Pharma,50mg,Syrup,26.03,562,Yes,FALSE,14-06-2024,Atorvastatin supports long‑term treatment of cholesterol management and heart disease.
+MED0190,Fluoxetine,Dr Reddy's,10ml,Injection,141.39,885,Yes,TRUE,20-12-2024,"Fluoxetine is effective in preventing complications related to anxiety, depression, and mood disorders."
+MED0191,Amlodipine,Cipla,5ml,Syrup,439.12,445,Yes,TRUE,19-08-2024,Amlodipine plays an important role in treating high blood pressure.
+MED0192,Paracetamol,Torrent,100mg,Injection,160.93,1092,No,TRUE,21-05-2024,Paracetamol is effective in preventing complications related to pain and fever.
+MED0193,Methotrexate,Lupin,650mg,Cream,7360.61,879,Yes,FALSE,14-06-2024,Methotrexate is effective in preventing complications related to certain cancers and immune-related conditions.
+MED0194,Pantoprazole,Lupin,50mg,Capsule,220.54,597,Yes,FALSE,19-12-2024,Pantoprazole is widely prescribed for controlling acid reflux and gastric disorders.
+MED0195,Linezolid,Mankind,650mg,Injection,3992.17,923,Yes,TRUE,08-02-2024,Linezolid is administered in moderate to severe cases of bacterial infections.
+MED0196,Amlodipine,Cipla,100mg,Inhaler,172.19,99,Yes,TRUE,21-08-2024,Amlodipine is effective in preventing complications related to high blood pressure.
+MED0197,Methylprednisolone,Zydus,500mg,Injection,29.36,317,Yes,TRUE,20-03-2024,Methylprednisolone is administered in moderate to severe cases of inflammatory and autoimmune disorders.
+MED0198,Montelukast,Abbott India,100mg,Syrup,445.64,14,Yes,TRUE,05-07-2024,Montelukast plays an important role in treating asthma and allergic airway conditions.
+MED0199,Enoxaparin,Alkem,100mg,Syrup,92.14,963,Yes,FALSE,04-10-2024,Enoxaparin is part of standard therapy for cholesterol management and heart disease.
+MED0200,Morphine,Abbott India,5ml,Capsule,2092.2,226,Yes,FALSE,30-05-2024,Morphine is indicated for patients suffering from pain and fever.
+MED0201,Methotrexate,Lupin,500mg,Syrup,9808.68,193,Yes,FALSE,23-06-2024,Methotrexate is part of standard therapy for certain cancers and immune-related conditions.
+MED0202,Methylprednisolone,Torrent,500mg,Injection,447.42,748,Yes,TRUE,15-02-2024,Methylprednisolone helps in reducing symptoms associated with inflammatory and autoimmune disorders.
+MED0203,Methotrexate,Torrent,500mg,Syrup,4600.23,208,Yes,FALSE,17-09-2024,Methotrexate is effective in preventing complications related to certain cancers and immune-related conditions.
+MED0204,Dexamethasone,Lupin,650mg,Inhaler,581.58,499,Yes,FALSE,28-03-2024,Dexamethasone is effective in preventing complications related to inflammatory and autoimmune disorders.
+MED0205,Metformin,Lupin,200mg,Injection,151.67,760,Yes,TRUE,04-12-2024,Metformin supports long‑term treatment of type 2 diabetes and blood glucose control.
+MED0206,Vancomycin,Mankind,1g,Syrup,998.5,632,Yes,FALSE,21-01-2024,Vancomycin is widely prescribed for controlling bacterial infections.
+MED0207,Glimepiride,Glenmark,650mg,Capsule,423.54,730,Yes,FALSE,10-04-2024,Glimepiride plays an important role in treating type 2 diabetes and blood glucose control.
+MED0208,Insulin Glargine,Glenmark,5ml,Tablet,103.82,21,Yes,FALSE,27-04-2024,Insulin Glargine is widely prescribed for controlling type 2 diabetes and blood glucose control.
+MED0209,Ibuprofen,Cipla,1g,Tablet,145.11,862,No,FALSE,10-04-2024,Ibuprofen works by targeting the underlying cause of pain and fever.
+MED0210,Paracetamol,Glenmark,200mg,Inhaler,242.51,361,No,FALSE,25-02-2024,Paracetamol supports long‑term treatment of pain and fever.
+MED0211,Fentanyl,Sun Pharma,1g,Capsule,1930.21,754,Yes,TRUE,22-01-2024,Fentanyl works by targeting the underlying cause of pain and fever.
+MED0212,Sertraline,Abbott India,10ml,Capsule,330.17,403,Yes,TRUE,25-04-2024,"Sertraline helps in reducing symptoms associated with anxiety, depression, and mood disorders."
+MED0213,Hydrochlorothiazide,Torrent,100mg,Tablet,251.62,1015,Yes,FALSE,31-07-2024,Hydrochlorothiazide is effective in preventing complications related to high blood pressure.
+MED0214,Rabeprazole,Abbott India,650mg,Tablet,509.58,762,Yes,FALSE,31-05-2024,Rabeprazole is widely prescribed for controlling acid reflux and gastric disorders.
+MED0215,Pantoprazole,Mankind,1g,Capsule,106.27,49,Yes,TRUE,28-07-2024,Pantoprazole is part of standard therapy for acid reflux and gastric disorders.
+MED0216,Methotrexate,Sun Pharma,250mg,Syrup,5308.76,197,Yes,TRUE,06-05-2024,Methotrexate helps in reducing symptoms associated with certain cancers and immune-related conditions.
+MED0217,Sertraline,Dr Reddy's,5ml,Cream,454.43,681,Yes,TRUE,21-07-2024,"Sertraline is administered in moderate to severe cases of anxiety, depression, and mood disorders."
+MED0218,Methotrexate,Dr Reddy's,650mg,Cream,5395.34,59,Yes,FALSE,07-03-2024,Methotrexate is part of standard therapy for certain cancers and immune-related conditions.
+MED0219,Telmisartan,Dr Reddy's,10ml,Syrup,346.39,778,Yes,TRUE,11-10-2024,Telmisartan is effective in preventing complications related to high blood pressure.
+MED0220,Ceftriaxone,Sun Pharma,5ml,Syrup,520.67,969,Yes,TRUE,04-12-2024,Ceftriaxone is effective in preventing complications related to bacterial infections.
+MED0221,Prednisolone,Zydus,100mg,Tablet,280.98,1148,Yes,FALSE,13-08-2024,Prednisolone is part of standard therapy for inflammatory and autoimmune disorders.
+MED0222,Telmisartan,Mankind,1g,Tablet,328.87,405,Yes,FALSE,09-09-2024,Telmisartan is commonly used in the management of high blood pressure.
+MED0223,Dexamethasone,Glenmark,200mg,Syrup,140.94,779,Yes,FALSE,01-01-2024,Dexamethasone is commonly used in the management of inflammatory and autoimmune disorders.
+MED0224,Warfarin,Cipla,100mg,Injection,101.23,883,Yes,TRUE,03-10-2024,Warfarin is widely prescribed for controlling cholesterol management and heart disease.
+MED0225,Metformin,Abbott India,200mg,Inhaler,76.97,269,Yes,FALSE,13-01-2024,Metformin plays an important role in treating type 2 diabetes and blood glucose control.
+MED0226,Montelukast,Glenmark,100mg,Tablet,256.07,889,Yes,FALSE,16-06-2024,Montelukast is commonly used in the management of asthma and allergic airway conditions.
+MED0227,Tacrolimus,Abbott India,5ml,Cream,357.18,509,Yes,FALSE,15-03-2024,Tacrolimus is effective in preventing complications related to inflammatory and autoimmune disorders.
+MED0228,Cyclophosphamide,Torrent,1g,Injection,4217.01,406,Yes,TRUE,21-04-2024,Cyclophosphamide is part of standard therapy for certain cancers and immune-related conditions.
+MED0229,Cyclophosphamide,Mankind,650mg,Cream,9329.65,359,Yes,TRUE,12-10-2024,Cyclophosphamide is part of standard therapy for certain cancers and immune-related conditions.
+MED0230,Clopidogrel,Mankind,5ml,Tablet,298.52,99,Yes,FALSE,28-09-2024,Clopidogrel is part of standard therapy for cholesterol management and heart disease.
+MED0231,Clarithromycin,Torrent,200mg,Tablet,596.13,435,Yes,FALSE,22-01-2024,Clarithromycin works by targeting the underlying cause of bacterial infections.
+MED0232,Omeprazole,Abbott India,100mg,Syrup,202.95,639,Yes,FALSE,22-07-2024,Omeprazole plays an important role in treating acid reflux and gastric disorders.
+MED0233,Warfarin,Sun Pharma,500mg,Inhaler,22.15,306,Yes,FALSE,31-05-2024,Warfarin is part of standard therapy for cholesterol management and heart disease.
+MED0234,Paracetamol,Zydus,10ml,Inhaler,181.56,229,No,TRUE,07-07-2024,Paracetamol is part of standard therapy for pain and fever.
+MED0235,Morphine,Mankind,1g,Injection,2775.04,748,Yes,FALSE,09-11-2024,Morphine is part of standard therapy for pain and fever.
+MED0236,Methotrexate,Lupin,100mg,Cream,2295.68,535,Yes,FALSE,25-08-2024,Methotrexate is part of standard therapy for certain cancers and immune-related conditions.
+MED0237,Prednisolone,Glenmark,500mg,Tablet,78.22,676,Yes,TRUE,17-10-2024,Prednisolone is administered in moderate to severe cases of inflammatory and autoimmune disorders.
+MED0238,Omeprazole,Alkem,1g,Syrup,203.27,821,Yes,TRUE,13-10-2024,Omeprazole works by targeting the underlying cause of acid reflux and gastric disorders.
+MED0239,Atorvastatin,Torrent,1g,Syrup,175.5,268,Yes,FALSE,04-08-2024,Atorvastatin is part of standard therapy for cholesterol management and heart disease.
+MED0240,Ondansetron,Mankind,100mg,Injection,153.04,147,Yes,TRUE,30-08-2024,Ondansetron plays an important role in treating acid reflux and gastric disorders.
+MED0241,Pantoprazole,Abbott India,650mg,Syrup,435.61,154,Yes,TRUE,21-01-2024,Pantoprazole is part of standard therapy for acid reflux and gastric disorders.
+MED0242,Tacrolimus,Torrent,1g,Capsule,478.47,1003,Yes,FALSE,19-05-2024,Tacrolimus works by targeting the underlying cause of inflammatory and autoimmune disorders.
+MED0243,Tacrolimus,Glenmark,200mg,Syrup,389.59,882,Yes,FALSE,26-08-2024,Tacrolimus plays an important role in treating inflammatory and autoimmune disorders.
+MED0244,Clopidogrel,Zydus,1g,Syrup,495.95,851,Yes,FALSE,19-11-2024,Clopidogrel works by targeting the underlying cause of cholesterol management and heart disease.
+MED0245,Ciprofloxacin,Glenmark,650mg,Inhaler,184.33,991,Yes,FALSE,25-05-2024,Ciprofloxacin is effective in preventing complications related to bacterial infections.
+MED0246,Vancomycin,Sun Pharma,5ml,Injection,1679.55,524,Yes,FALSE,05-07-2024,Vancomycin is commonly used in the management of bacterial infections.
+MED0247,Prednisolone,Torrent,250mg,Capsule,285.02,433,Yes,FALSE,03-02-2024,Prednisolone is administered in moderate to severe cases of inflammatory and autoimmune disorders.
+MED0248,Lithium Carbonate,Dr Reddy's,5ml,Inhaler,74.55,1034,Yes,TRUE,03-08-2024,"Lithium Carbonate is administered in moderate to severe cases of anxiety, depression, and mood disorders."
+MED0249,Paracetamol,Mankind,250mg,Cream,182.07,920,No,FALSE,05-09-2024,Paracetamol is effective in preventing complications related to pain and fever.
+MED0250,Morphine,Lupin,500mg,Syrup,3018.13,385,Yes,TRUE,20-03-2024,Morphine is part of standard therapy for pain and fever.
+MED0251,Salbutamol,Zydus,50mg,Injection,471.57,598,Yes,TRUE,24-09-2024,Salbutamol is indicated for patients suffering from asthma and allergic airway conditions.
+MED0252,Clindamycin,Abbott India,500mg,Capsule,485.92,1158,Yes,FALSE,10-09-2024,Clindamycin is part of standard therapy for bacterial infections.
+MED0253,Fluoxetine,Abbott India,10ml,Injection,187.89,47,Yes,TRUE,27-01-2024,"Fluoxetine is effective in preventing complications related to anxiety, depression, and mood disorders."
+MED0254,Clopidogrel,Sun Pharma,10ml,Inhaler,152.6,416,Yes,FALSE,30-10-2024,Clopidogrel supports long‑term treatment of cholesterol management and heart disease.
+MED0255,Methylprednisolone,Abbott India,5ml,Syrup,135.56,197,Yes,TRUE,24-05-2024,Methylprednisolone is effective in preventing complications related to inflammatory and autoimmune disorders.
+MED0256,Aspirin,Zydus,1g,Capsule,111.7,67,No,FALSE,08-06-2024,Aspirin is part of standard therapy for pain and fever.
+MED0257,Amlodipine,Dr Reddy's,500mg,Syrup,520.49,594,Yes,FALSE,25-05-2024,Amlodipine supports long‑term treatment of high blood pressure.
+MED0258,Metformin,Zydus,50mg,Syrup,151.48,203,Yes,TRUE,27-06-2024,Metformin is commonly used in the management of type 2 diabetes and blood glucose control.
+MED0259,Metformin,Abbott India,10ml,Syrup,458.12,1103,Yes,FALSE,23-05-2024,Metformin supports long‑term treatment of type 2 diabetes and blood glucose control.
+MED0260,Methotrexate,Zydus,5ml,Syrup,8752.36,50,Yes,TRUE,15-03-2024,Methotrexate supports long‑term treatment of certain cancers and immune-related conditions.
+MED0261,Insulin Glargine,Abbott India,200mg,Capsule,323.55,799,Yes,TRUE,09-06-2024,Insulin Glargine is part of standard therapy for type 2 diabetes and blood glucose control.
+MED0262,Insulin Glargine,Zydus,1g,Capsule,35.1,181,Yes,FALSE,18-07-2024,Insulin Glargine is indicated for patients suffering from type 2 diabetes and blood glucose control.
+MED0263,Montelukast,Cipla,5ml,Capsule,428.02,1160,Yes,FALSE,21-05-2024,Montelukast is indicated for patients suffering from asthma and allergic airway conditions.
+MED0264,Paracetamol,Cipla,10ml,Injection,266.4,377,No,FALSE,03-06-2024,Paracetamol helps in reducing symptoms associated with pain and fever.
+MED0265,Dexamethasone,Zydus,1g,Injection,372.42,337,Yes,FALSE,07-08-2024,Dexamethasone works by targeting the underlying cause of inflammatory and autoimmune disorders.
+MED0266,Methotrexate,Sun Pharma,200mg,Capsule,8493.4,826,Yes,TRUE,18-05-2024,Methotrexate helps in reducing symptoms associated with certain cancers and immune-related conditions.
+MED0267,Ceftriaxone,Alkem,50mg,Tablet,213.55,44,Yes,TRUE,13-05-2024,Ceftriaxone is widely prescribed for controlling bacterial infections.
+MED0268,Tacrolimus,Alkem,10ml,Inhaler,82.51,582,Yes,TRUE,13-02-2024,Tacrolimus is part of standard therapy for inflammatory and autoimmune disorders.
+MED0269,Atorvastatin,Lupin,200mg,Injection,468.61,1086,Yes,TRUE,09-07-2024,Atorvastatin is indicated for patients suffering from cholesterol management and heart disease.
+MED0270,Budesonide,Cipla,500mg,Inhaler,570.78,653,Yes,TRUE,07-09-2024,Budesonide is indicated for patients suffering from asthma and allergic airway conditions.
+MED0271,Ibuprofen,Sun Pharma,650mg,Injection,562.05,432,No,FALSE,10-08-2024,Ibuprofen is indicated for patients suffering from pain and fever.
+MED0272,Montelukast,Abbott India,650mg,Syrup,395.52,767,Yes,FALSE,02-05-2024,Montelukast helps in reducing symptoms associated with asthma and allergic airway conditions.
+MED0273,Methotrexate,Dr Reddy's,1g,Inhaler,8864.54,1147,Yes,FALSE,13-11-2024,Methotrexate plays an important role in treating certain cancers and immune-related conditions.
+MED0274,Aspirin,Alkem,50mg,Tablet,521.74,895,No,TRUE,04-11-2024,Aspirin supports long‑term treatment of pain and fever.
+MED0275,Montelukast,Abbott India,1g,Capsule,341.23,639,Yes,FALSE,04-11-2024,Montelukast is effective in preventing complications related to asthma and allergic airway conditions.
+MED0276,Sertraline,Torrent,200mg,Inhaler,549.77,28,Yes,TRUE,10-01-2024,"Sertraline helps in reducing symptoms associated with anxiety, depression, and mood disorders."
+MED0277,Enoxaparin,Glenmark,100mg,Capsule,187.55,1064,Yes,FALSE,27-04-2024,Enoxaparin is administered in moderate to severe cases of cholesterol management and heart disease.
+MED0278,Aspirin,Dr Reddy's,500mg,Cream,179.25,62,No,FALSE,22-03-2024,Aspirin is widely prescribed for controlling pain and fever.
+MED0279,Cyclophosphamide,Torrent,10ml,Inhaler,5679.47,1070,Yes,FALSE,27-08-2024,Cyclophosphamide supports long‑term treatment of certain cancers and immune-related conditions.
+MED0280,Montelukast,Torrent,10ml,Syrup,307.39,58,Yes,FALSE,17-11-2024,Montelukast is indicated for patients suffering from asthma and allergic airway conditions.
+MED0281,Metformin,Abbott India,250mg,Injection,552.76,373,Yes,FALSE,19-08-2024,Metformin is effective in preventing complications related to type 2 diabetes and blood glucose control.
+MED0282,Pantoprazole,Mankind,100mg,Syrup,493.64,38,Yes,TRUE,23-07-2024,Pantoprazole is commonly used in the management of acid reflux and gastric disorders.
+MED0283,Cyclophosphamide,Lupin,1g,Injection,3258.99,797,Yes,TRUE,04-11-2024,Cyclophosphamide supports long‑term treatment of certain cancers and immune-related conditions.
+MED0284,Risperidone,Torrent,250mg,Cream,486.31,948,Yes,TRUE,11-06-2024,"Risperidone supports long‑term treatment of anxiety, depression, and mood disorders."
+MED0285,Ciprofloxacin,Glenmark,100mg,Inhaler,132.72,337,Yes,FALSE,20-04-2024,Ciprofloxacin is commonly used in the management of bacterial infections.
+MED0286,Cyclosporine,Torrent,1g,Syrup,170.78,854,Yes,TRUE,29-09-2024,Cyclosporine is effective in preventing complications related to inflammatory and autoimmune disorders.
+MED0287,Cyclophosphamide,Torrent,250mg,Tablet,9602.37,1164,Yes,TRUE,21-09-2024,Cyclophosphamide is commonly used in the management of certain cancers and immune-related conditions.
+MED0288,Tramadol,Lupin,250mg,Inhaler,495.42,347,Yes,TRUE,17-09-2024,Tramadol is commonly used in the management of pain and fever.
+MED0289,Methylprednisolone,Alkem,200mg,Tablet,72.45,104,Yes,TRUE,03-02-2024,Methylprednisolone is effective in preventing complications related to inflammatory and autoimmune disorders.
+MED0290,Domperidone,Alkem,650mg,Cream,135.64,697,Yes,FALSE,20-01-2024,Domperidone is indicated for patients suffering from acid reflux and gastric disorders.
+MED0291,Methylprednisolone,Alkem,5ml,Tablet,364.87,199,Yes,TRUE,10-01-2024,Methylprednisolone is effective in preventing complications related to inflammatory and autoimmune disorders.
+MED0292,Meropenem,Lupin,1g,Syrup,1469.42,654,Yes,FALSE,29-06-2024,Meropenem plays an important role in treating bacterial infections.
+MED0293,Levofloxacin,Glenmark,500mg,Capsule,323.43,424,Yes,TRUE,09-02-2024,Levofloxacin is widely prescribed for controlling bacterial infections.
+MED0294,Budesonide,Glenmark,650mg,Inhaler,516.61,616,Yes,FALSE,31-01-2024,Budesonide is part of standard therapy for asthma and allergic airway conditions.
+MED0295,Linezolid,Lupin,650mg,Tablet,3133.09,1175,Yes,FALSE,26-09-2024,Linezolid is commonly used in the management of bacterial infections.
+MED0296,Budesonide,Dr Reddy's,100mg,Capsule,399.26,600,Yes,TRUE,01-06-2024,Budesonide is effective in preventing complications related to asthma and allergic airway conditions.
+MED0297,Doxycycline,Torrent,650mg,Capsule,156.13,656,Yes,TRUE,13-06-2024,Doxycycline plays an important role in treating bacterial infections.
+MED0298,Clopidogrel,Alkem,5ml,Capsule,92.35,178,Yes,FALSE,14-07-2024,Clopidogrel is administered in moderate to severe cases of cholesterol management and heart disease.
+MED0299,Morphine,Sun Pharma,10ml,Inhaler,4366.11,732,Yes,TRUE,09-08-2024,Morphine is commonly used in the management of pain and fever.
+MED0300,Hydrochlorothiazide,Torrent,100mg,Injection,302.35,530,Yes,TRUE,22-06-2024,Hydrochlorothiazide works by targeting the underlying cause of high blood pressure.
+MED0301,Dexamethasone,Dr Reddy's,650mg,Tablet,246.78,584,Yes,TRUE,26-02-2024,Dexamethasone is commonly used in the management of inflammatory and autoimmune disorders.
+MED0302,Rabeprazole,Abbott India,100mg,Cream,457.5,63,Yes,TRUE,21-11-2024,Rabeprazole is indicated for patients suffering from acid reflux and gastric disorders.
+MED0303,Salbutamol,Zydus,100mg,Injection,553.5,286,Yes,FALSE,20-12-2024,Salbutamol is indicated for patients suffering from asthma and allergic airway conditions.
+MED0304,Omeprazole,Dr Reddy's,500mg,Syrup,529.78,665,Yes,TRUE,19-04-2024,Omeprazole is widely prescribed for controlling acid reflux and gastric disorders.
+MED0305,Domperidone,Lupin,200mg,Injection,109.34,1188,Yes,FALSE,28-02-2024,Domperidone helps in reducing symptoms associated with acid reflux and gastric disorders.
+MED0306,Montelukast,Zydus,500mg,Syrup,194.54,699,Yes,TRUE,22-03-2024,Montelukast is administered in moderate to severe cases of asthma and allergic airway conditions.
+MED0307,Tacrolimus,Alkem,250mg,Inhaler,565.83,360,Yes,FALSE,18-08-2024,Tacrolimus is indicated for patients suffering from inflammatory and autoimmune disorders.
+MED0308,Rabeprazole,Alkem,250mg,Cream,267.29,581,Yes,FALSE,19-02-2024,Rabeprazole is part of standard therapy for acid reflux and gastric disorders.
+MED0309,Metformin,Zydus,50mg,Syrup,431.64,57,Yes,TRUE,25-06-2024,Metformin is widely prescribed for controlling type 2 diabetes and blood glucose control.
+MED0310,Methotrexate,Mankind,250mg,Cream,3300.4,484,Yes,TRUE,17-11-2024,Methotrexate helps in reducing symptoms associated with certain cancers and immune-related conditions.
+MED0311,Clindamycin,Alkem,50mg,Inhaler,24.62,604,Yes,TRUE,27-08-2024,Clindamycin works by targeting the underlying cause of bacterial infections.
+MED0312,Glimepiride,Mankind,500mg,Inhaler,70.28,926,Yes,FALSE,01-10-2024,Glimepiride is effective in preventing complications related to type 2 diabetes and blood glucose control.
+MED0313,Rosuvastatin,Dr Reddy's,50mg,Syrup,313.8,5,Yes,TRUE,29-05-2024,Rosuvastatin is part of standard therapy for cholesterol management and heart disease.
+MED0314,Linezolid,Torrent,250mg,Tablet,3906.74,362,Yes,TRUE,16-08-2024,Linezolid is administered in moderate to severe cases of bacterial infections.
+MED0315,Fluoxetine,Dr Reddy's,250mg,Inhaler,409.86,915,Yes,FALSE,04-11-2024,"Fluoxetine works by targeting the underlying cause of anxiety, depression, and mood disorders."
+MED0316,Ondansetron,Glenmark,100mg,Inhaler,471.97,692,Yes,TRUE,20-02-2024,Ondansetron is effective in preventing complications related to acid reflux and gastric disorders.
+MED0317,Ibuprofen,Mankind,250mg,Injection,493.43,256,No,TRUE,24-01-2024,Ibuprofen is widely prescribed for controlling pain and fever.
+MED0318,Pantoprazole,Abbott India,100mg,Tablet,563.54,5,Yes,FALSE,26-04-2024,Pantoprazole is effective in preventing complications related to acid reflux and gastric disorders.
+MED0319,Ondansetron,Torrent,10ml,Injection,301.49,383,Yes,TRUE,14-09-2024,Ondansetron is commonly used in the management of acid reflux and gastric disorders.
+MED0320,Meropenem,Lupin,250mg,Capsule,1286.4,374,Yes,TRUE,21-02-2024,Meropenem is part of standard therapy for bacterial infections.
+MED0321,Rosuvastatin,Mankind,250mg,Tablet,46.92,334,Yes,FALSE,01-11-2024,Rosuvastatin plays an important role in treating cholesterol management and heart disease.
+MED0322,Budesonide,Zydus,5ml,Inhaler,160.15,592,Yes,FALSE,09-10-2024,Budesonide is indicated for patients suffering from asthma and allergic airway conditions.
+MED0323,Cyclophosphamide,Glenmark,50mg,Syrup,3868.62,323,Yes,FALSE,27-01-2024,Cyclophosphamide plays an important role in treating certain cancers and immune-related conditions.
+MED0324,Rabeprazole,Glenmark,5ml,Syrup,209.66,789,Yes,TRUE,01-08-2024,Rabeprazole supports long‑term treatment of acid reflux and gastric disorders.
+MED0325,Glimepiride,Sun Pharma,500mg,Cream,494.61,19,Yes,FALSE,23-12-2024,Glimepiride is administered in moderate to severe cases of type 2 diabetes and blood glucose control.
+MED0326,Losartan,Dr Reddy's,650mg,Tablet,365.98,482,Yes,TRUE,24-07-2024,Losartan is effective in preventing complications related to high blood pressure.
+MED0327,Cyclophosphamide,Mankind,650mg,Capsule,4186.24,857,Yes,TRUE,25-08-2024,Cyclophosphamide helps in reducing symptoms associated with certain cancers and immune-related conditions.
+MED0328,Tramadol,Glenmark,100mg,Cream,483.5,1088,Yes,TRUE,15-09-2024,Tramadol is administered in moderate to severe cases of pain and fever.
+MED0329,Metformin,Glenmark,250mg,Inhaler,359.04,775,Yes,FALSE,18-12-2024,Metformin is indicated for patients suffering from type 2 diabetes and blood glucose control.
+MED0330,Cyclophosphamide,Glenmark,250mg,Syrup,5052.6,85,Yes,TRUE,07-12-2024,Cyclophosphamide is commonly used in the management of certain cancers and immune-related conditions.
+MED0331,Tramadol,Abbott India,200mg,Injection,163.59,893,Yes,TRUE,06-07-2024,Tramadol is part of standard therapy for pain and fever.
+MED0332,Losartan,Lupin,650mg,Inhaler,217.56,908,Yes,TRUE,27-04-2024,Losartan is effective in preventing complications related to high blood pressure.
+MED0333,Cyclophosphamide,Torrent,200mg,Syrup,3268.5,925,Yes,TRUE,20-07-2024,Cyclophosphamide is commonly used in the management of certain cancers and immune-related conditions.
+MED0334,Losartan,Dr Reddy's,50mg,Tablet,231.86,11,Yes,TRUE,20-05-2024,Losartan plays an important role in treating high blood pressure.
+MED0335,Olanzapine,Abbott India,10ml,Capsule,67.19,1124,Yes,FALSE,30-04-2024,"Olanzapine is commonly used in the management of anxiety, depression, and mood disorders."
+MED0336,Glimepiride,Glenmark,10ml,Inhaler,151.43,1150,Yes,FALSE,04-08-2024,Glimepiride plays an important role in treating type 2 diabetes and blood glucose control.
+MED0337,Diazepam,Lupin,5ml,Injection,499.01,114,Yes,TRUE,13-07-2024,"Diazepam supports long‑term treatment of anxiety, depression, and mood disorders."
+MED0338,Fentanyl,Zydus,100mg,Capsule,2864.61,807,Yes,TRUE,05-01-2024,Fentanyl helps in reducing symptoms associated with pain and fever.
+MED0339,Sertraline,Glenmark,10ml,Inhaler,253.01,687,Yes,FALSE,13-01-2024,"Sertraline helps in reducing symptoms associated with anxiety, depression, and mood disorders."
+MED0340,Dexamethasone,Abbott India,650mg,Cream,88.42,1161,Yes,FALSE,19-06-2024,Dexamethasone is indicated for patients suffering from inflammatory and autoimmune disorders.
+MED0341,Meropenem,Lupin,250mg,Inhaler,1112.36,1026,Yes,FALSE,07-11-2024,Meropenem plays an important role in treating bacterial infections.
+MED0342,Tramadol,Cipla,100mg,Tablet,382.13,222,Yes,TRUE,25-07-2024,Tramadol is part of standard therapy for pain and fever.
+MED0343,Cyclophosphamide,Zydus,500mg,Syrup,8293.02,80,Yes,FALSE,11-12-2024,Cyclophosphamide is administered in moderate to severe cases of certain cancers and immune-related conditions.
+MED0344,Sertraline,Torrent,500mg,Inhaler,572.99,80,Yes,TRUE,14-10-2024,"Sertraline plays an important role in treating anxiety, depression, and mood disorders."
+MED0345,Levofloxacin,Cipla,1g,Syrup,503.03,87,Yes,TRUE,02-03-2024,Levofloxacin is part of standard therapy for bacterial infections.
+MED0346,Cyclosporine,Zydus,200mg,Injection,511.87,274,Yes,FALSE,14-08-2024,Cyclosporine is effective in preventing complications related to inflammatory and autoimmune disorders.
+MED0347,Atorvastatin,Cipla,250mg,Cream,515.51,2,Yes,FALSE,19-07-2024,Atorvastatin works by targeting the underlying cause of cholesterol management and heart disease.
+MED0348,Montelukast,Lupin,10ml,Cream,147.09,1193,Yes,TRUE,12-06-2024,Montelukast helps in reducing symptoms associated with asthma and allergic airway conditions.
+MED0349,Ondansetron,Sun Pharma,50mg,Syrup,276.62,739,Yes,TRUE,14-02-2024,Ondansetron helps in reducing symptoms associated with acid reflux and gastric disorders.
+MED0350,Insulin Glargine,Mankind,200mg,Cream,457.51,780,Yes,FALSE,09-12-2024,Insulin Glargine plays an important role in treating type 2 diabetes and blood glucose control.
