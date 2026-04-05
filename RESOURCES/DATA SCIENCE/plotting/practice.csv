@@ -1,0 +1,10 @@
+product_id,generic_name,brand_name,price_inr,stock,prescription_required,is_active
+MED0001,Methotrexate,Torrent,7978.26,None,Yes,FALSE
+MED0002,Prednisolone,Cipla,121.14,136,Yes,FALSE
+MED0003,Linezolid,Torrent,2265.88,None,Yes,TRUE
+MED0004,Methylprednisolone,Abbott India,397.49,400,Yes,FALSE
+MED0005,Domperidone,Lupin,538.11,237,Yes,TRUE
+MED0006,Risperidone,Cipla,519.36,245,Yes,TRUE
+MED0007,Cyclosporine,Zydus,60.54,None,Yes,FALSE
+MED0008,Ibuprofen,Sun Pharma,540.95,579,No,TRUE
+MED0009,Rabeprazole,Abbott India,171.8,None,Yes,TRUE

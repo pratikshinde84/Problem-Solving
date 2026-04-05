@@ -1,5 +1,5 @@
 product_id,generic_name,brand_name,dosage,form,price_inr,stock,prescription_required,is_active,created_at,description
-MED0001,Methotrexate,Torrent,1g,Tablet,7978.26,1042,Yes,FALSE,05-11-2024,Methotrexate is commonly used in the management of certain cancers and immune-related conditions.
+MED0001,Methotrexate,Torrent,1g,Tablet,7978.26,None,Yes,FALSE,05-11-2024,Methotrexate is commonly used in the management of certain cancers and immune-related conditions.
 MED0002,Prednisolone,Cipla,100mg,Syrup,121.14,136,Yes,TRUE,30-04-2024,Prednisolone is commonly used in the management of inflammatory and autoimmune disorders.
 MED0003,Linezolid,Torrent,10ml,Syrup,2265.88,599,Yes,TRUE,30-04-2024,Linezolid works by targeting the underlying cause of bacterial infections.
 MED0004,Methylprednisolone,Abbott India,50mg,Tablet,397.49,400,Yes,FALSE,12-03-2024,Methylprednisolone plays an important role in treating inflammatory and autoimmune disorders.
